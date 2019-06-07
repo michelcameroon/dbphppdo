@@ -1,0 +1,9 @@
+<?php
+
+/* Connect to a MySQL database using driver invocation */
+$dsn = 'mysql:dbname=test;host=127.0.0.1';
+$user = 'advance';
+$password = 'ecnavda';
+
+$sql = "select * FROM student where id = $id";
+?>
